@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuy Kimsour | Data Science &amp; Engineering Student</title>
+  <meta name="description"
+    content="Portfolio of Kuy Kimsour, First-Year Data Science and Engineering student at the Royal University of Phnom Penh, passionate about AI, Machine Learning and Data Analysis.">
+  <meta name="keywords" content="Kuy Kimsour, Data Science, RUPP, Machine Learning, Portfolio, Cambodia">
+  <meta name="author" content="Kuy Kimsour">
+
+  <meta property="og:title" content="Kuy Kimsour | Data Science &amp; Engineering Student">
+  <meta property="og:description"
+    content="First-Year Data Science and Engineering student at RUPP, exploring AI, Machine Learning and Data Analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/kimsour.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/lol.png">
+  <link rel="apple-touch-icon" href="images/lol.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,400;1,600&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="images/kimsour.png" alt="Kuy Kimsour logo" width="40" height="40">
+        </span>
+        <span class="brand-text">Kuy&nbsp;Kimsour</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode"
+          aria-pressed="false">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb">
+              <svg class="icon-sun" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <circle cx="12" cy="12" r="5" />
+                <path
+                  d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+              </svg>
+              <svg class="icon-moon" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+              </svg>
+            </span>
+          </span>
+        </button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false"
+          aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="home" class="hero" aria-label="Introduction">
+      <div class="hero-canvas" id="heroCanvas" aria-hidden="true"></div>
+
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <p class="hero-tagline reveal" data-reveal>
+            <span class="tagline-dash" aria-hidden="true"></span> PORTFOLIO &middot; DATA SCIENCE &middot; RUPP
+          </p>
+
+          <h1 class="hero-giant-title reveal" data-reveal>
+            <span class="hero-name-first">KUY</span>
+            <span class="hero-name-last">KIMSOUR</span>
+          </h1>
+
+          <h2 class="hero-giant-subtitle reveal" data-reveal>
+            1<sup>st</sup> Year Data Science Student
+          </h2>
+
+          <p class="hero-intro reveal" data-reveal>
+            First-Year Bachelor of Data Science and Engineering student at the Royal University of Phnom Penh (RUPP),
+            Cambodia. Passionate about AI, Machine Learning, and Data Analysis.
+          </p>
+
+          <div class="hero-actions reveal" data-reveal>
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-reveal>
+          <div class="orbit-ring orbit-1" aria-hidden="true"></div>
+          <div class="orbit-ring orbit-2" aria-hidden="true"></div>
+          <div class="profile-frame">
+            <div class="profile-glow" aria-hidden="true"></div>
+            <img src="images/Sour.png" alt="Portrait of Kimsour Kuy" class="profile-img" id="profileImg" width="420"
+              height="420">
+          </div>
+          <div class="float-chip chip-1" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="16" height="16">
+              <path d="M3 3v18h18M7 15l4-4 3 3 5-6" />
+            </svg>
+            <span>Python</span>
+          </div>
+          <div class="float-chip chip-2" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="16" height="16">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 3" />
+            </svg>
+            <span>Machine Learning</span>
+          </div>
+          <div class="float-chip chip-3" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="16" height="16">
+              <path d="M4 19V5M10 19V9M16 19v-7M22 19V4" />
+            </svg>
+            <span>Data Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span class="scroll-cue-dot"></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+
+        <div class="about-main reveal" data-reveal>
+          <p class="section-label"> <span>About Me</span></p>
+          <h2 class="about-heading">Building with <em>data</em> &amp; innovation.</h2>
+
+          <p class="about-text">
+            Hello! I'm Kimsour Kuy, a first-year Bachelor of Data Science and Engineering student at the Royal
+            University of Phnom Penh (RUPP), Cambodia. I am passionate about using data and technology to solve
+            real-world problems and create meaningful solutions.
+          </p>
+          <p class="about-text">
+            My interests include Data Science, Machine Learning, Artificial Intelligence, Data Analysis, Mathematics,
+            and Software Engineering. I enjoy learning new technologies, improving my programming skills, and exploring
+            how data can help people make better decisions.
+          </p>
+
+          <a href="#contact" class="btn btn-primary about-cta">
+            <span>Get In Touch</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M13 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="about-cards">
+          <div class="info-card reveal" data-reveal data-reveal-delay="0">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c0 2 6 2 6 2s6 0 6-2v-5" />
+              </svg>
+            </div>
+            <span class="info-card-value">1<sup>st</sup></span>
+            <span class="info-card-label">Year at RUPP</span>
+          </div>
+
+          <div class="info-card reveal" data-reveal data-reveal-delay="80">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+              </svg>
+            </div>
+            <span class="info-card-value">3</span>
+            <span class="info-card-label">Projects Completed</span>
+          </div>
+
+          <div class="info-card reveal" data-reveal data-reveal-delay="160">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <path
+                  d="M18.178 8c5.096 0 5.096 8 0 8-2.3 0-3.99-1.63-5.25-3.32-1.26-1.69-2.95-3.32-5.25-3.32-5.096 0-5.096 8 0 8 2.3 0 3.99-1.63 5.25-3.32 1.26-1.69 2.95-3.32 5.25-3.32z" />
+              </svg>
+            </div>
+            <span class="info-card-value">&#8734;</span>
+            <span class="info-card-label">Continuous Learning</span>
+          </div>
+
+          <div class="info-card reveal" data-reveal data-reveal-delay="240">
+            <div class="info-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <span class="info-card-value">KH</span>
+            <span class="info-card-label">Phnom Penh, Cambodia</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal" data-reveal>
+          <p class="section-label"> <span>Skills</span></p>
+          <h2 class="section-title">Tools I'm learning to think with.</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1 -->
+          <div class="skill-category-card reveal" data-reveal>
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Languages &amp; Data Science</h3>
+                <p class="skill-category-subtitle">Programming languages &amp; analytical methods</p>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Python</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    <line x1="12" y1="9" x2="12" y2="15" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">C++</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <path d="M7 8l4 4-4 4M13 16h4" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">CSS / HTML</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M3 3v18h18" />
+                    <path d="M18 9l-5 5-4-4-5 5" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Data Analysis</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path
+                      d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Machine Learning (Basic)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-category-card reveal" data-reveal data-reveal-delay="120">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Tools &amp; Workflow</h3>
+                <p class="skill-category-subtitle">Development environments, tools &amp; productivity</p>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Microsoft Office</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Google Workspace</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Git/GitHub</span>
+              </div>
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <polyline points="4 17 10 11 4 5" />
+                    <line x1="12" y1="19" x2="20" y2="19" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">VS Code</span>
+              </div>
+
+
+              <div class="skill-tag">
+                <span class="skill-tag-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16">
+                    <path
+                      d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1.55.59 2.92 1.5 3.5.76.76 1.23 1.52 1.41 2.5" />
+                  </svg>
+                </span>
+                <span class="skill-tag-name">Problem Solver</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading reveal" data-reveal>
+          <p class="section-label"> <span>Experience</span></p>
+          <h2 class="section-title">My Journey So Far</h2>
+        </div>
+        <div class="experience-wrapper glass-card">
+          <div class="experience-header-group">
+            <span class="status-tag pulse">Currently Building My Experience</span>
+            <span class="internship-badge">Open to Internship Opportunities</span>
+          </div>
+
+          <h3 class="experience-headline">No Professional Experience Yet</h3>
+
+          <p class="experience-message">
+            I am currently focusing on building a strong foundation in Data Science and Engineering through university
+            coursework, personal projects, continuous self-learning, and hands-on programming. I am actively seeking
+            opportunities to gain practical experience through internships, research projects, hackathons, and
+            open-source contributions.
+          </p>
+
+          <div class="timeline-placeholder">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Bachelor of Data Science and Engineering</h4>
+                <p class="timeline-org">Royal University of Phnom Penh (RUPP)</p>
+                <p class="timeline-date">2026 — Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt" aria-label="Projects">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Selected Projects</p>
+          <h2 class="section-title">Things I've Built While Learning</h2>
+          <p class="section-subtitle">Small projects, real practice.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-media">
+              <!-- Add your project image in images/ folder and change src="images/your-image.png" below -->
+              <img src="images/ATM.jpg" alt="ATM System Project" class="project-img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <svg viewBox="0 0 400 240" class="project-svg" aria-hidden="true" style="display:none;">
+                <rect width="400" height="240" class="p-bg" />
+                <rect x="120" y="50" width="160" height="140" rx="14" class="p-screen" />
+                <rect x="140" y="72" width="120" height="14" rx="3" class="p-line" />
+                <rect x="140" y="98" width="90" height="10" rx="3" class="p-line-dim" />
+                <rect x="140" y="118" width="100" height="10" rx="3" class="p-line-dim" />
+                <circle cx="200" cy="160" r="14" class="p-accent" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Python</span><span>OPP</span><span>Security</span><span>Algorithms</span>
+              </div>
+              <h3>ATM System</h3>
+              <p>A console-based ATM application in Python featuring PIN authentication, balance checking,
+                withdrawals, deposits, and careful input validation to prevent invalid transactions.</p>
+              <div class="project-links">
+                <a href="https://github.com/kuykimsour-web/ATM-system-using-Python.git" target="_blank"
+                  rel="noopener noreferrer" class="project-link">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-media">
+              <!-- Add your project image in images/ folder and change src="images/your-image.png" below -->
+              <img src="images/Student.png" alt="Student Performance Analysis" class="project-img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <svg viewBox="0 0 400 240" class="project-svg" aria-hidden="true" style="display:none;">
+                <rect width="400" height="240" class="p-bg" />
+                <polyline points="90,170 150,120 200,150 250,90 310,110" class="p-line-path" />
+                <circle cx="90" cy="170" r="5" class="p-accent" />
+                <circle cx="150" cy="120" r="5" class="p-accent" />
+                <circle cx="200" cy="150" r="5" class="p-accent" />
+                <circle cx="250" cy="90" r="5" class="p-accent" />
+                <circle cx="310" cy="110" r="5" class="p-accent" />
+                <rect x="80" y="185" width="16" height="22" class="p-bar" />
+                <rect x="150" y="175" width="16" height="32" class="p-bar" />
+                <rect x="220" y="160" width="16" height="47" class="p-bar" />
+                <rect x="290" y="180" width="16" height="27" class="p-bar" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Python</span><span>Data Analysis</span><span>Visualization</span>
+              </div>
+              <h3>Students Performance Analysis</h3>
+              <p>A data analysis project exploring the factors that influence student academic performance,
+                using Python and data visualization to surface meaningful patterns in the dataset.</p>
+              <div class="project-links">
+                <a href="https://github.com/kuykimsour-web/Student-Performance-Analysis-.git" target="_blank"
+                  rel="noopener noreferrer" class="project-link">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-media">
+              <!-- Add your project image in images/ folder and change src="images/your-image.png" below -->
+              <img src="images/Football.png" alt="Football Player Performance Analysis" class="project-img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <svg viewBox="0 0 400 240" class="project-svg" aria-hidden="true" style="display:none;">
+                <rect width="400" height="240" class="p-bg" />
+                <circle cx="200" cy="120" r="55" class="p-ring" />
+                <path d="M200 65 A55 55 0 0 1 248 148" class="p-arc" />
+                <circle cx="200" cy="120" r="6" class="p-accent" />
+                <line x1="130" y1="190" x2="270" y2="190" class="p-line-dim" />
+                <line x1="150" y1="205" x2="250" y2="205" class="p-line-dim" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Python</span><span>Sports Analytics</span><span>Data Analysis</span>
+              </div>
+              <h3>Football Player Performance Analysis</h3>
+              <p>A sports analytics project (WorldCup26) analyzing football player statistics with data
+                analysis methods to identify performance trends and insights.</p>
+              <div class="project-links">
+                <a href="https://github.com/kuykimsour-web/Football-Player-Performance-Analysis-WorldCup26.git"
+                  target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow"> </p>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">Open to opportunities, collaboration, and conversations about data.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal" data-reveal>
+            <a class="contact-item" href="mailto:kuykimsour@gmail.com">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path d="M3 6h18v12H3zM3 7l9 6 9-6" />
+                </svg>
+              </span>
+              <span>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">kuykimsour@gmail.com</span>
+              </span>
+            </a>
+
+            <a class="contact-item" href="https://www.linkedin.com/in/kimsour-kuy-1271163a6" target="_blank"
+              rel="noopener noreferrer">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <line x1="8" y1="10" x2="8" y2="17" />
+                  <line x1="8" y1="7" x2="8" y2="7.01" />
+                  <line x1="12" y1="17" x2="12" y2="10" />
+                  <path d="M12 13a3 3 0 0 1 6 0v4" />
+                </svg>
+              </span>
+              <span>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">kimsour-kuy</span>
+              </span>
+            </a>
+
+            <a class="contact-item" href="https://github.com/kuykimsour-web" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+                </svg>
+              </span>
+              <span>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">kuykimsour-web</span>
+              </span>
+            </a>
+
+            <a class="contact-item" href="https://www.facebook.com/share/1CujFGaS9g" target="_blank"
+              rel="noopener noreferrer">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </span>
+              <span>
+                <span class="contact-label">Facebook</span>
+                <span class="contact-value">View Profile</span>
+              </span>
+            </a>
+          </div>
+
+          <!-- Replace YOUR_FORM_ID with the ID from your Formspree dashboard. -->
+          <form class="contact-form reveal" data-reveal id="contactForm"
+            action="https://formspree.io/f/maewoeko" method="POST" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <span class="form-error" id="emailError"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Tell me a bit about what you'd like to discuss..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="images/kimsour.png" alt="Kimsour Kuy logo" width="40" height="40">
+        </span>
+        <div>
+          <p class="footer-name">Kuy Kimsour</p>
+          <p class="footer-role">Data Science &amp; Engineering Student &mdash; RUPP</p>
+        </div>
+      </div>
+
+      <div class="footer-socials">
+        <a href="mailto:kuykimsour@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M3 6h18v12H3zM3 7l9 6 9-6" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kimsour-kuy-1271163a6" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <line x1="8" y1="10" x2="8" y2="17" />
+            <line x1="8" y1="7" x2="8" y2="7.01" />
+            <line x1="12" y1="17" x2="12" y2="10" />
+            <path d="M12 13a3 3 0 0 1 6 0v4" />
+          </svg>
+        </a>
+        <a href="https://github.com/kuykimsour-web" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21" />
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/share/1CujFGaS9g" target="_blank" rel="noopener noreferrer"
+          aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+          </svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">&copy; <span id="year"></span> Kuy Kimsour. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
