@@ -8,8 +8,6 @@ The website features a clean, premium design with support for **Light/Dark Mode*
 
 ## 📌 Live Demo
 
-> Add your deployment link here after publishing.
-
 ```
 https://kuykimsour.vercel.app/
 ```
