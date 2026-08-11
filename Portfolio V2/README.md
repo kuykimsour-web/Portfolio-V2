@@ -10,10 +10,8 @@ The website features a clean, premium design with support for **Light/Dark Mode*
 
 > Add your deployment link here after publishing.
 
-Example:
-
 ```
-https://your-portfolio-link.com
+https://kuykimsour.vercel.app/
 ```
 
 
